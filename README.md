@@ -1,4 +1,42 @@
-# Fantasy_Football
-Host files for my fantasy football league stats in a notebook to publish to the web.
+---
+title: Fantasy Football Stats (Under Construction)
+emoji: 🏈
+colorFrom: indigo
+colorTo: blue
+sdk: streamlit
+app_file: app.py
+pinned: false
+---
 
-This is a work in progress and more will be added in the coming weeks!
+## About This App:
+
+'''This project deals with importing the data from my fantasy football league via the ESPN "ff_espn_api" API and displaying trends, \n
+   stats, and winners of the weekly challenges my league established, e.g. the team with the most WR receptions wins.'''
+   
+# Configuration
+
+`title`: _string_  
+Display title for the Space
+
+`emoji`: _string_  
+Space emoji (emoji-only character allowed)
+
+`colorFrom`: _string_  
+Color for Thumbnail gradient (red, yellow, green, blue, indigo, purple, pink, gray)
+
+`colorTo`: _string_  
+Color for Thumbnail gradient (red, yellow, green, blue, indigo, purple, pink, gray)
+
+`sdk`: _string_  
+Can be either `gradio` or `streamlit`
+
+`sdk_version` : _string_  
+Only applicable for `streamlit` SDK.  
+See [doc](https://hf.co/docs/hub/spaces) for more info on supported versions.
+
+`app_file`: _string_  
+Path to your main application file (which contains either `gradio` or `streamlit` Python code).  
+Path is relative to the root of the repository.
+
+`pinned`: _boolean_  
+Whether the Space stays on top of your list.
